@@ -1,12 +1,12 @@
 <?php
 
-namespace Jiny\Auth\Social\Http\Controllers\Api;
+namespace Jiny\Auth\Social\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use Jiny\Auth\Social\Services\OAuthService;
-use Jiny\Auth\Social\Services\JwtService;
-use Jiny\Auth\Social\Services\ActivityLogService;
+use Jiny\Auth\Services\JwtService;
+use Jiny\Auth\Services\ActivityLogService;
 
 /**
  * OAuth API 컨트롤러 (v1)

@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
 use App\Models\User;
 use Jiny\Auth\Social\Models\ShardedUser;
+use Jiny\Auth\Services\ShardingService;
 
 /**
  * OAuth 소셜 로그인 서비스
