@@ -1,6 +1,6 @@
 <?php
 
-namespace Jiny\Auth\Social\Http\Controllers\Auth\Social;
+namespace Jiny\Auth\Social\Http\Controllers\Social;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;

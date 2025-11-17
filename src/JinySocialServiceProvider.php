@@ -44,11 +44,11 @@ class JinySocialServiceProvider extends ServiceProvider
         // 소셜 인증 관련 미들웨어 등록
         $this->registerMiddleware();
 
-        // 라우트 파일들 로드 (웹, 관리자, 홈, API)
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
-        $this->loadRoutesFrom(__DIR__.'/../routes/admin.php');
-        $this->loadRoutesFrom(__DIR__.'/../routes/home.php');
-        $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
+        // 라우트 파일들 로드 (소셜 프로필은 jiny/profiles로 이동됨)
+        // $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+        // $this->loadRoutesFrom(__DIR__.'/../routes/admin.php');
+        // $this->loadRoutesFrom(__DIR__.'/../routes/home.php'); // profiles 패키지로 이동
+        // $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
         // 뷰 파일들 등록
         $this->loadViewsFrom(__DIR__.'/../resources/views', $this->package);
